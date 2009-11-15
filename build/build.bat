@@ -1,3 +1,0 @@
-rake clear
-
-pause
