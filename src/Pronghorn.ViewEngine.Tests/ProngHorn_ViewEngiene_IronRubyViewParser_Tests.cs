@@ -59,6 +59,7 @@ self.output += ""		</table>\r\n""
 			Assert.That(newDate, Is.EqualTo(oldDate));
 		}
 
+        /*
 		[Test]
 		[Ignore("Run only in local computers, when running remote may fail due to how fast the compilation happens.")]
 		public void When_the_template_is_newer_that_the_precompile_file_Should_precompile_it_again()
@@ -92,7 +93,7 @@ self.output += ""		</table>\r\n""
 
 			Assert.That(newDate, Is.GreaterThan(oldDate));
 		}
-
+        */
 		[Test]
 		public void When_given_a_template_Should_return_valid_Ruby_Code()
 		{
