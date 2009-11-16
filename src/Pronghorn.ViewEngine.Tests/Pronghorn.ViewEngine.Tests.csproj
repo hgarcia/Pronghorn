@@ -86,6 +86,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Pronghorn.Core\Pronghorn.Core.csproj">
+      <Project>{31E30085-9CB1-4322-89E6-F9B4A22B15A1}</Project>
+      <Name>Pronghorn.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Pronghorn.ViewEngine\Pronghorn.ViewEngine.csproj">
       <Project>{E375B43A-5948-47AE-8EE4-95046F6B998F}</Project>
       <Name>Pronghorn.ViewEngine</Name>

@@ -65,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILocalizationService.cs" />
     <Compile Include="IronRubyViewExecutor.cs" />
     <Compile Include="INodeParser.cs" />
     <Compile Include="IronRubyViewParser.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="IViewParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NodeParser.cs" />
+    <Compile Include="ResourceLocalizationService.cs" />
     <Compile Include="Visitors\CSharp\AreaNodeVisitor.cs" />
     <Compile Include="Visitors\CSharp\ForEachNodeVisitor.cs" />
     <Compile Include="Visitors\CSharp\IfNodeVisitor.cs" />

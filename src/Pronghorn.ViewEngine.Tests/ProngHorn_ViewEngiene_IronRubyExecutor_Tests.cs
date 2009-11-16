@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using Pronghorn.Core;
 using Pronghorn.ViewEngine;
 
 namespace UnitTesting.Unit
@@ -51,13 +52,13 @@ self.output += ""		</table>\r\n""
 		[Test]
 		public void When_passing_code_Should_Execute_It_and_return_text()
 		{
-			//var localizationService = IocContainer.GetClassInstance<ILocalizationService>();
+			ILocalizationService localizationService = new ResourceLocalizationService();
 			IViewExecutor ironRubyViewExecutor = new IronRubyViewExecutor();
 			var parser = new IronRubyViewParser();
 			var code = parser.Parse(_templatePath);
 			var model = new {ftuValue = "100 USD",ftuUrl="LaunchPage",idModifier = "modifier"};
-			//ironRubyViewExecutor.SetGlobalVariables("localization",localizationService);
-			//ironRubyViewExecutor.SetGlobalVariables("lang",localizationService.GetLanguages().English);
+			ironRubyViewExecutor.SetGlobalVariables("localization",localizationService);
+			ironRubyViewExecutor.SetGlobalVariables("lang","en");
 			var html = ironRubyViewExecutor.Execute(RubyCode, model);
 			Assert.That(html, Is.EqualTo(HtmlCode));
 		}
