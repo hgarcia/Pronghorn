@@ -43,7 +43,6 @@ self.output += ""		</table>\r\n""
 			IViewParser rubyViewParser =  new IronRubyViewParser();
 			rubyViewParser.Parse(_templatePath);
 			Assert.That(File.Exists(_templatePath + ".rhtml"));
-
 		}
 
 		[Test]
@@ -59,7 +58,7 @@ self.output += ""		</table>\r\n""
 			Assert.That(newDate, Is.EqualTo(oldDate));
 		}
 
-        /*
+        
 		[Test]
 		[Ignore("Run only in local computers, when running remote may fail due to how fast the compilation happens.")]
 		public void When_the_template_is_newer_that_the_precompile_file_Should_precompile_it_again()
@@ -93,33 +92,15 @@ self.output += ""		</table>\r\n""
 
 			Assert.That(newDate, Is.GreaterThan(oldDate));
 		}
-        */
+        
 		[Test]
 		public void When_given_a_template_Should_return_valid_Ruby_Code()
 		{
 			IViewParser rubyViewParser = new IronRubyViewParser();
-			string result = rubyViewParser.Parse(_templatePath);
+			var result = rubyViewParser.Parse(_templatePath);
 			
 			Assert.That(result,Is.EqualTo(RubyCode));
 		}
-	}
+        
+    }
 }
-/*
-self.output += "		<div class="SureSidebarSectionTitle SureWalletLabel">\r\n"
-self.output += "			#{phrases.new users}\r\n"
-self.output += "		</div>\r\n"
-self.output += "		<table class="SureSidebarSectionFrame" cellspacing="0" cellpadding="0">\r\n"
-self.output += "			<tr>\r\n"
-self.output += "				<td class="SureSidebarSectionInnerFrame" style="cursor:pointer" onclick="javascript:self.location='#{ftuUrl}'">\r\n"
-self.output += "					<p class="WalletFTUPromtionDisplay1">#{ftuValue} #{phrases.FREE}*</p>\r\n"
-self.output += "					<p class="WalletFTUPromtionDisplay2">#{phrases.Viewing Credit}</p>\r\n"
-self.output += "					<p class="WalletFTUPromtionDisplay3">*#{phrases.no purchase required}</p>\r\n"
-self.output += "				</td>\r\n"
-self.output += "			</tr>\r\n"
-self.output += "			<tr>\r\n"
-self.output += "				<td class="SureSidebarSectionInnerFrame">\r\n"
-self.output += "					<a id="SureWalletBulletStartHere#{idModifier}" class="SureWalletBullet" href="javascript:WalletLink('#{ftuUrl}')">#{phrases.start here}</a>\r\n"
-self.output += "				</td>\r\n"
-self.output += "			</tr>\r\n"
-self.output += "		</table>\r\n"
-*/
