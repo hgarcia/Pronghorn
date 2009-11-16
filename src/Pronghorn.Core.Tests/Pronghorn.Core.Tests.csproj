@@ -54,7 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WidgetFactoryTests.cs" />
+    <Compile Include="WidgetFactory_Tests.cs" />
+    <Compile Include="Widget_Implements_two_interfaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pronghorn.Core\Pronghorn.Core.csproj">

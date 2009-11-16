@@ -4,6 +4,6 @@ namespace Pronghorn.Core
 {
     public interface IWidgetFactory
     {
-        IWidget Create(string widgetId);
+        IWebWidget Create(string widgetId);
     }
 }

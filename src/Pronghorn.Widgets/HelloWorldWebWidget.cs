@@ -5,7 +5,7 @@ using Pronghorn.Core;
 
 namespace Pronghorn.Widgets
 {
-    public class HelloWorldWidget : WidgetBase
+    public class HelloWorldWebWidget : WebWidgetBase
     {
         public override IEnumerable<T> GetModel<T>()
         {

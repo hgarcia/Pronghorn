@@ -4,7 +4,7 @@ using Rhino.Mocks;
 namespace Pronghorn.Core.Tests
 {
     [TestFixture]
-    public class WidgetFactoryTests
+    public class WidgetFactory_Tests
     {
         [Test]
         public void When_Given_a_Widget_Id_I_Should_Get_a_fully_initialized_Widget()
@@ -13,7 +13,7 @@ namespace Pronghorn.Core.Tests
             var serviceLocator = MockRepository.GenerateStub<IServiceLocator>();
             IWidgetFactory widgetFactory = new WidgetFactory(serviceLocator);
 
-            IWidget widget = widgetFactory.Create(widgetId);
+            Core.IWebWidget webWidget = widgetFactory.Create(widgetId);
         }
     }
 }

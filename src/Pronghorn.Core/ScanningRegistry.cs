@@ -17,7 +17,7 @@ namespace Pronghorn.Core
                 x.AddAllTypesOf<PronghornControllerBase>().NameBy(type => type.Name);
                 x.WithDefaultConventions();
                 x.AssembliesFromPath(context.Server.MapPath("~/Widgets"));
-                x.AddAllTypesOf<WidgetBase>().NameBy(type => type.FullName);
+                x.AddAllTypesOf<WebWidgetBase>().NameBy(type => type.FullName);
             });
         }
     }

@@ -9,13 +9,13 @@ namespace Pronghorn.Core
             _serviceLocator = serviceLocator;
         }
 
-        public IWidget Create(string widgetId)
+        public IWebWidget Create(string widgetId)
         {
-            IWidget widget = _serviceLocator.ResolveWithKey<IWidget>(widgetId);
+            IWebWidget webWidget = _serviceLocator.ResolveWithKey<IWebWidget>(widgetId);
 
             //var params =  new WidgetJsonSetUpParams()
-            //widget.SetUp();
-            return widget;
+            //webWidget.SetUp();
+            return webWidget;
         }
     }
 }
