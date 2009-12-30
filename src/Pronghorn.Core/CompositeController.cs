@@ -1,5 +1,4 @@
 using System.Web.Mvc;
-
 namespace Pronghorn.Core
 {
     public class CompositeController : Controller
