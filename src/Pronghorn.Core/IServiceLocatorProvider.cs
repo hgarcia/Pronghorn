@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 
+
 namespace Pronghorn.Core
 {
     public interface IServiceLocatorProvider

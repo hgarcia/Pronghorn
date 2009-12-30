@@ -9,4 +9,5 @@
 
         public static IServiceLocatorProvider Current { get; private set; }
     }
+
 }
