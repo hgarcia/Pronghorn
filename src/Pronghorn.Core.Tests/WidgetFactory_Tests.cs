@@ -11,9 +11,11 @@ namespace Pronghorn.Core.Tests
         public void When_Given_a_Widget_Id_I_Should_Get_a_fully_initialized_Widget()
         {
             var widgetId = "Namespace.WidgetName";
-            var serviceLocator = MockRepository.GenerateMock<IServiceLocator>();
+            var serviceLocator = MockRepository.GenerateMock<IServiceLocatorProvider>();
             serviceLocator.Expect(s => s.ResolveWithKey<IWebWidget>(widgetId)).Return(new HelloWorldWebWidget());
-            IWidgetFactory widgetFactory = new WidgetFactory(serviceLocator);
+            ServiceLocator.SetLocatorProvider(serviceLocator);
+
+            IWidgetFactory widgetFactory = new WidgetFactory();
 
             widgetFactory.Create(widgetId);
 

@@ -1,6 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using StructureMap;
 
 namespace Pronghorn.Core
 {
@@ -12,9 +13,15 @@ namespace Pronghorn.Core
             ConfigureContainer();
         }
 
-        public static void ConfigureContainer()
+        public void ConfigureContainer()
         {
-            ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory(new ServiceLocator(HttpContext.Current)));
+            ServiceLocator.SetLocatorProvider(new ServiceLocatorProvider(
+                        new Container
+                            (new ScanningRegistry(Context)
+                            )
+                           )
+                          );
+            ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
         }
 
         public static void RegisterRoutes(RouteCollection routes)

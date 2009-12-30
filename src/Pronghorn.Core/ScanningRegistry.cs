@@ -14,7 +14,7 @@ namespace Pronghorn.Core
             Scan(x =>
             {
                 x.AssembliesFromPath(context.Server.MapPath("~/bin"));
-                x.AddAllTypesOf<PronghornControllerBase>().NameBy(type => type.Name);
+                x.AddAllTypesOf<CompositeController>().NameBy(type => type.Name);
                 x.WithDefaultConventions();
                 x.AssembliesFromPath(context.Server.MapPath("~/Widgets"));
                 x.AddAllTypesOf<WebWidgetBase>().NameBy(type => type.FullName);

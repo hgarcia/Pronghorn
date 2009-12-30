@@ -9,7 +9,7 @@ namespace Pronghorn.Web.Controllers
 {
 
     [HandleError]
-    public class AccountController : PronghornControllerBase
+    public class AccountController : CompositeController
     {
 
         // This constructor is used by the MVC framework to instantiate the controller using

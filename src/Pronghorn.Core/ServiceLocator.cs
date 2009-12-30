@@ -1,35 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Web;
-using StructureMap;
-
-namespace Pronghorn.Core
+﻿namespace Pronghorn.Core
 {
-    public class ServiceLocator : IServiceLocator
+    public class ServiceLocator
     {
-        private static Container _container;
-        public ServiceLocator(HttpContext context)
+        public static void SetLocatorProvider(IServiceLocatorProvider provider)
         {
-            _container = new Container(new ScanningRegistry(context));
+            Current = provider;
         }
 
-        public Container Container
-        {
-            get { return _container; }
-        }
-
-        public TFacility Resolve<TFacility>()
-        {
-            return _container.GetInstance<TFacility>();
-        }
-
-        public TFacility ResolveWithKey<TFacility>(string key)
-        {
-            return _container.GetInstance<TFacility>(key);
-        }
-
-        public IList<TFacility> GetAllInstancesOf<TFacility>()
-        {
-            return _container.GetAllInstances<TFacility>();
-        }
+        public static IServiceLocatorProvider Current { get; private set; }
     }
 }

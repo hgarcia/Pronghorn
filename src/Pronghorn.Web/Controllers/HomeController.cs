@@ -5,7 +5,7 @@ using Pronghorn.Core;
 namespace Pronghorn.Web.Controllers
 {
     [HandleError]
-    public class HomeController : PronghornControllerBase
+    public class HomeController : CompositeController
     {
         public ActionResult Index()
         {
