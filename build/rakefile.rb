@@ -47,9 +47,11 @@ end
 desc "Run the tests"
 task :test => [:move] do
   xml_file = File.join(PACKAGE_PATH, "nunit-test-report.xml")
+   
   for test in TEST_PROJECTS
-    sh "#{NUNIT_PATH} #{PACKAGE_PATH}/#{test}/#{CONFIG}/Pronghorn.#{test}.dll /nologo /xml=#{xml_file}"
+    testsToRun = "#{testsToRun} #{PACKAGE_PATH}/#{test}/#{CONFIG}/Pronghorn.#{test}.dll "
   end  
+  sh "#{NUNIT_PATH} #{testsToRun} /nologo /xml=#{xml_file}"
 end
 
 desc "Create the db objects"

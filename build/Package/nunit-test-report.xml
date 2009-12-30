@@ -1,64 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="Package/ViewEngine.Tests/Release/Pronghorn.ViewEngine.Tests.dll" total="32" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2009-12-29" time="22:51:02">
+<test-results name="Package/ViewEngine.Tests/Release/Pronghorn.ViewEngine.Tests.dll" total="35" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2009-12-29" time="22:59:06">
   <environment nunit-version="2.5.2.9222" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7100.0" platform="Win32NT" cwd="c:\Development\Code\Net3.5\Pronghorn\build" machine-name="HERNAN-STUDIO" user="Hernan" user-domain="Hernan-Studio" />
   <culture-info current-culture="en-CA" current-uiculture="en-US" />
-  <test-suite name="Package/ViewEngine.Tests/Release/Pronghorn.ViewEngine.Tests.dll" executed="True" success="True" time="3.860" asserts="0">
+  <test-suite name="" executed="True" success="True" time="4.623" asserts="0">
     <results>
-      <test-suite name="UnitTesting" executed="True" success="True" time="3.844" asserts="0">
+      <test-suite name="Package/ViewEngine.Tests/Release/Pronghorn.ViewEngine.Tests.dll" executed="True" success="True" time="3.675" asserts="0">
         <results>
-          <test-suite name="Unit" executed="True" success="True" time="3.843" asserts="0">
+          <test-suite name="UnitTesting" executed="True" success="True" time="3.660" asserts="0">
             <results>
-              <test-suite name="ProngHorn_ViewEngiene_IronRubyExecutor_Tests" executed="True" success="True" time="3.746" asserts="1">
+              <test-suite name="Unit" executed="True" success="True" time="3.660" asserts="0">
                 <results>
-                  <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyExecutor_Tests.When_passing_code_Should_Execute_It_and_return_text" executed="True" success="True" time="3.712" asserts="0" />
+                  <test-suite name="ProngHorn_ViewEngiene_IronRubyExecutor_Tests" executed="True" success="True" time="3.561" asserts="1">
+                    <results>
+                      <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyExecutor_Tests.When_passing_code_Should_Execute_It_and_return_text" executed="True" success="True" time="3.544" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ProngHorn_ViewEngiene_IronRubyViewParser_Tests" executed="True" success="True" time="0.029" asserts="4">
+                    <results>
+                      <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_given_a_template_Should_return_valid_Ruby_Code" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_passing_a_template_location_Should_parse_it_and_save_it_to_disk" executed="True" success="True" time="0.004" asserts="0" />
+                      <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_passing_a_template_location_that_was_pre_compile_Should_not_parse_it_again" executed="True" success="True" time="0.005" asserts="0" />
+                      <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_the_template_is_newer_that_the_precompile_file_Should_precompile_it_again" executed="True" success="True" time="0.015" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Pronghorn_ViewEngine_CSharp_Visitors_Tests" executed="True" success="True" time="0.036" asserts="14">
+                    <results>
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.004" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_encapsulate_the_line_in_a_stream_write" executed="True" success="True" time="0.003" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_a_variable_in_it_creates_a_line_of_code" executed="True" success="True" time="0.005" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_a_variable_with_propeties_it_call_GetString_object_property_path" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_more_than_one_variable_in_it_creates_a_line_of_code" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_area_variable_TextVisitor_ignores_it" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_metaTags_pass_it_to_the_view_meta_renderer" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_scripts_pass_it_to_the_view_scripts_renderer" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_styles_pass_it_to_the_view_style_renderer" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_end_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_ifnode_replace_the_line_with_the_right_code" executed="True" success="True" time="0.004" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_ifnodeEnd_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_just_an_area_convert_it_in_a_foreach_and_call_Render_on_the_IWidgets" executed="True" success="True" time="0.002" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Parsing_the_Title_Should_call_Model_dot_Title" executed="True" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Pronghorn_ViewEngine_IronRuby_Visitors_Tests" executed="True" success="True" time="0.015" asserts="12">
+                    <results>
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_line_with_a_phrase_Should_replace_the_phrase_and_leave_the_rest_of_the_line_as_it_was" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_Should_use_the_localization_service_to_call_the_phrase" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_1_underscore_at_the_end_Should_replace_them_with_1_plus_signs" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_2_underscores_at_the_end_Should_replace_them_with_2_plus_signs" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_underscores_in_the_middle_Should_replace_them_with_spaces" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_text_node_Should_convert_the_line_to_a_string_and_assign_to_self_dot_output" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_end_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnode_else_replace_the_line_with_the_right_code" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnode_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnodeEnd_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_just_an_area_convert_it_in_a_foreach_and_call_Render_on_the_IWidgets" executed="True" success="True" time="0.002" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Pronghorn_ViewEngine_NodeParser" executed="True" success="True" time="0.003" asserts="1">
+                    <results>
+                      <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_NodeParser.Given_a_collection_of_visitors_Should_run_them_in_the_visitors_order" executed="True" success="True" time="0.002" asserts="0" />
+                    </results>
+                  </test-suite>
                 </results>
               </test-suite>
-              <test-suite name="ProngHorn_ViewEngiene_IronRubyViewParser_Tests" executed="True" success="True" time="0.032" asserts="4">
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite name="Package/Core.Tests/Release/Pronghorn.Core.Tests.dll" executed="True" success="True" time="0.418" asserts="0">
+        <results>
+          <test-suite name="Pronghorn" executed="True" success="True" time="0.407" asserts="0">
+            <results>
+              <test-suite name="Core" executed="True" success="True" time="0.406" asserts="0">
                 <results>
-                  <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_given_a_template_Should_return_valid_Ruby_Code" executed="True" success="True" time="0.002" asserts="0" />
-                  <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_passing_a_template_location_Should_parse_it_and_save_it_to_disk" executed="True" success="True" time="0.005" asserts="0" />
-                  <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_passing_a_template_location_that_was_pre_compile_Should_not_parse_it_again" executed="True" success="True" time="0.006" asserts="0" />
-                  <test-case name="UnitTesting.Unit.ProngHorn_ViewEngiene_IronRubyViewParser_Tests.When_the_template_is_newer_that_the_precompile_file_Should_precompile_it_again" executed="True" success="True" time="0.014" asserts="0" />
-                </results>
-              </test-suite>
-              <test-suite name="Pronghorn_ViewEngine_CSharp_Visitors_Tests" executed="True" success="True" time="0.034" asserts="14">
-                <results>
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.004" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_encapsulate_the_line_in_a_stream_write" executed="True" success="True" time="0.003" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_a_variable_in_it_creates_a_line_of_code" executed="True" success="True" time="0.006" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_a_variable_with_propeties_it_call_GetString_object_property_path" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_a_text_node_with_more_than_one_variable_in_it_creates_a_line_of_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_area_variable_TextVisitor_ignores_it" executed="True" success="True" time="0.000" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_metaTags_pass_it_to_the_view_meta_renderer" executed="True" success="True" time="0.002" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_scripts_pass_it_to_the_view_scripts_renderer" executed="True" success="True" time="0.002" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_array_of_styles_pass_it_to_the_view_style_renderer" executed="True" success="True" time="0.002" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_end_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_ifnode_replace_the_line_with_the_right_code" executed="True" success="True" time="0.003" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_an_ifnodeEnd_replace_the_line_with_the_right_code" executed="True" success="True" time="0.000" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Given_just_an_area_convert_it_in_a_foreach_and_call_Render_on_the_IWidgets" executed="True" success="True" time="0.002" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_CSharp_Visitors_Tests.Parsing_the_Title_Should_call_Model_dot_Title" executed="True" success="True" time="0.001" asserts="0" />
-                </results>
-              </test-suite>
-              <test-suite name="Pronghorn_ViewEngine_IronRuby_Visitors_Tests" executed="True" success="True" time="0.016" asserts="12">
-                <results>
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_line_with_a_phrase_Should_replace_the_phrase_and_leave_the_rest_of_the_line_as_it_was" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_Should_use_the_localization_service_to_call_the_phrase" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_1_underscore_at_the_end_Should_replace_them_with_1_plus_signs" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_2_underscores_at_the_end_Should_replace_them_with_2_plus_signs" executed="True" success="True" time="0.000" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_phrase_with_underscores_in_the_middle_Should_replace_them_with_spaces" executed="True" success="True" time="0.000" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_a_text_node_Should_convert_the_line_to_a_string_and_assign_to_self_dot_output" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_end_foreach_node_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnode_else_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnode_replace_the_line_with_the_right_code" executed="True" success="True" time="0.001" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_an_ifnodeEnd_replace_the_line_with_the_right_code" executed="True" success="True" time="0.000" asserts="0" />
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_IronRuby_Visitors_Tests.Given_just_an_area_convert_it_in_a_foreach_and_call_Render_on_the_IWidgets" executed="True" success="True" time="0.002" asserts="0" />
-                </results>
-              </test-suite>
-              <test-suite name="Pronghorn_ViewEngine_NodeParser" executed="True" success="True" time="0.003" asserts="1">
-                <results>
-                  <test-case name="UnitTesting.Unit.Pronghorn_ViewEngine_NodeParser.Given_a_collection_of_visitors_Should_run_them_in_the_visitors_order" executed="True" success="True" time="0.002" asserts="0" />
+                  <test-suite name="Tests" executed="True" success="True" time="0.404" asserts="0">
+                    <results>
+                      <test-suite name="Widget_Implements_two_interfaces" executed="True" success="True" time="0.038" asserts="2">
+                        <results>
+                          <test-case name="Pronghorn.Core.Tests.Widget_Implements_two_interfaces.When_calling_an_IServiceWidget_Should_be_able_to_instantiate_a_ServiceWidgetBase" executed="True" success="True" time="0.021" asserts="0" />
+                          <test-case name="Pronghorn.Core.Tests.Widget_Implements_two_interfaces.When_calling_an_IWebWidget_Should_be_able_to_instantiate_a_WebWidgetBase" executed="True" success="True" time="0.001" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="WidgetFactory_Tests" executed="True" success="True" time="0.362" asserts="0">
+                        <results>
+                          <test-case name="Pronghorn.Core.Tests.WidgetFactory_Tests.When_Given_a_Widget_Id_I_Should_Get_a_fully_initialized_Widget" executed="True" success="True" time="0.362" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
                 </results>
               </test-suite>
             </results>
