@@ -12,66 +12,67 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IScanningRegistry.cs" caret="134" fromTop="6" />
-      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Scripts/f:jquery-1.3.2.js" caret="0" fromTop="0" />
-      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Views/d:Home/f:About.aspx" caret="202" fromTop="2" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetParams.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetRequestSetUpParams.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="740" fromTop="22" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetData.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetRepository.cs" caret="0" fromTop="0" />
       <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ResourceLocalizationService.cs" caret="228" fromTop="8" />
       <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ILocalizationService.cs" caret="139" fromTop="3" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:Pronghorn_ViewEngine_IronRuby_Visitors_Tests.cs" caret="4303" fromTop="20" />
       <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:IronRubyViewExecutor.cs" caret="1365" fromTop="28" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="2473" fromTop="38" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceWidget.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="6" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWIdget.cs" caret="0" fromTop="0" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="213" fromTop="8" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1131" fromTop="28" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ScanningRegistry.cs" caret="176" fromTop="6" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="324" fromTop="10" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="252" fromTop="8" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="456" fromTop="15" />
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Global.asax.cs" caret="0" fromTop="0" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="712" fromTop="18" />
       <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWebWidget.cs" caret="186" fromTop="6" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="2473" fromTop="26" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2587" fromTop="13" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:Pronghorn_ViewEngine_IronRuby_Visitors_Tests.cs" caret="306" fromTop="8" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ScanningRegistry.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="115" fromTop="4" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="686" fromTop="18" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="100" fromTop="3" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="0" fromTop="0" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:CompositeController_Tests.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="540" fromTop="12" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="291" fromTop="10" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceLocatorProvider.cs" caret="37" fromTop="1" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:CompositeController.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="596" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3961" fromTop="8" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2129" fromTop="10" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3688" fromTop="21" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3951" fromTop="30" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2597" fromTop="8" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="0" fromTop="0" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="147" fromTop="5" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="1148" fromTop="13" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="54" fromTop="5" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="19" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="70" fromTop="5" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="11" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="6" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="2366" fromTop="36" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1308" fromTop="18" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1491" fromTop="22" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="2098" fromTop="22" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="357" fromTop="10" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="720" fromTop="18" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1131" fromTop="28" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="1270" fromTop="13" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="295" fromTop="10" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="832" fromTop="24" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="954" fromTop="13" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="747" fromTop="5" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="527" fromTop="17" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="712" fromTop="18" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="396" fromTop="12" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="626" fromTop="16" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2587" fromTop="13" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="2473" fromTop="12" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:CompositeController.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="38" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="12" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="16" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceLocatorProvider.cs" caret="66" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceLocatorProvider.cs" caret="119" fromTop="10" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="31" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="169" fromTop="8" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="9" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="326" fromTop="13" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="33" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="760" fromTop="28" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="754" fromTop="24" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceLocatorProvider.cs" caret="100" fromTop="3" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="27" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="60" fromTop="1" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:CompositeController_Tests.cs" caret="334" fromTop="9" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="100" fromTop="3" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="438" fromTop="13" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="686" fromTop="18" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="655" fromTop="23" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="655" fromTop="21" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="655" fromTop="21" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="143" fromTop="4" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="540" fromTop="11" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:CompositeController.cs" caret="21" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IServiceLocatorProvider.cs" caret="37" fromTop="1" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="291" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -82,7 +83,7 @@
       <Item value="return" priority="8" />
       <Item value="default" priority="1" />
       <Item value="Tparams" priority="1" />
-      <Item value="public" priority="5" />
+      <Item value="public" priority="7" />
       <Item value="abstract" priority="0" />
       <Item value="void" priority="0" />
       <Item value="Start_Application" priority="0" />
@@ -95,7 +96,7 @@
       <Item value="WidgetBase" priority="3" />
       <Item value="W" priority="0" />
       <Item value="string" priority="9" />
-      <Item value="this" priority="0" />
+      <Item value="this" priority="1" />
       <Item value="var" priority="5" />
       <Item value="controller" priority="2" />
       <Item value="_name" priority="0" />
@@ -104,7 +105,7 @@
       <Item value="Configuration.DSL" priority="0" />
       <Item value="IWidgets" priority="0" />
       <Item value="ctor" priority="1" />
-      <Item value="new" priority="8" />
+      <Item value="new" priority="10" />
       <Item value="HttpContext" priority="0" />
       <Item value="_locator" priority="3" />
       <Item value="controllerNameType" priority="0" />
@@ -118,23 +119,23 @@
       <Item value="Pronghorn" priority="0" />
       <Item value="List" priority="0" />
       <Item value="private" priority="0" />
-      <Item value="Container" priority="0" />
+      <Item value="Container" priority="1" />
       <Item value="context" priority="0" />
       <Item value="x" priority="5" />
       <Item value="IScanningRegistry" priority="1" />
       <Item value="StructureMapControllerFactory" priority="0" />
-      <Item value="tst" priority="1" />
+      <Item value="tst" priority="2" />
       <Item value="Rhino.Mocks" priority="0" />
       <Item value="MockRepository" priority="0" />
       <Item value="widgetFactory" priority="1" />
-      <Item value="serviceLocator" priority="3" />
+      <Item value="serviceLocator" priority="4" />
       <Item value="IWidget" priority="2" />
       <Item value="_serviceLocator" priority="1" />
       <Item value="widgetId" priority="1" />
       <Item value="widget" priority="1" />
       <Item value="WidgetJsonSetUpParams" priority="0" />
       <Item value="key" priority="0" />
-      <Item value="interface" priority="1" />
+      <Item value="interface" priority="2" />
       <Item value="IWIdget" priority="1" />
       <Item value="Assert" priority="1" />
       <Item value="webWidget" priority="0" />
@@ -146,6 +147,14 @@
       <Item value="IServiceWidget" priority="0" />
       <Item value="WebWidgetBase`0" priority="1" />
       <Item value="HelloWorldWebWidget`0" priority="0" />
+      <Item value="Ignore" priority="2" />
+      <Item value="compositeController" priority="0" />
+      <Item value="CompositeController" priority="0" />
+      <Item value="ServiceLocator`0" priority="3" />
+      <Item value="class" priority="0" />
+      <Item value="IServiceLocator`0" priority="0" />
+      <Item value="Container`0" priority="0" />
+      <Item value="HttpContext`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.HttpContext">
       <Item value="Current" priority="1" />
@@ -237,6 +246,16 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
       <Item value="Return`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.ApplicationBase">
+      <Item value="Context" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Pronghorn.Core.ServiceLocatorProvider">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Pronghorn.Core.ServiceLocator">
+      <Item value="Current" priority="2" />
+      <Item value="SetLocatorProvider`0" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <UnitTestRunnerNUnit>

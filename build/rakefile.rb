@@ -45,7 +45,7 @@ task :move => [:test]  do
 end
 
 desc "Run the tests"
-task :test => do
+task :test do
   xml_file = File.join(PACKAGE_PATH, "nunit-test-report.xml")
    
   for test in TEST_PROJECTS
