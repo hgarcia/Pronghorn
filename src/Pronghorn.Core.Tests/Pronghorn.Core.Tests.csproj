@@ -62,6 +62,10 @@
       <Project>{31E30085-9CB1-4322-89E6-F9B4A22B15A1}</Project>
       <Name>Pronghorn.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Pronghorn.Widgets\Pronghorn.Widgets.csproj">
+      <Project>{BE95AEED-67FC-4627-B42C-B3FD9B32E8D1}</Project>
+      <Name>Pronghorn.Widgets</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

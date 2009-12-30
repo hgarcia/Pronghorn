@@ -1,0 +1,12 @@
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\bin\Debug\Pronghorn.Migrations.dll
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\bin\Debug\Pronghorn.Migrations.pdb
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\bin\Debug\Migrator.Framework.dll
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\obj\Debug\Pronghorn.Migrations.dll
+C:\Development\Code\Net3.5\Pronghorn\Pronghorn.Migrations\obj\Debug\Pronghorn.Migrations.pdb
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Debug\Pronghorn.Migrations.dll
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Debug\Pronghorn.Migrations.pdb
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Debug\Migrator.Framework.dll
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Debug\Pronghorn.Migrations.dll
+C:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Debug\Pronghorn.Migrations.pdb

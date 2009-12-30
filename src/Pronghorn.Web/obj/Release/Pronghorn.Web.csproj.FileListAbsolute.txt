@@ -1,0 +1,16 @@
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Widgets\Pronghorn.Widgets.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.Web.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.Web.pdb
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.Core.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.ViewEngine.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\StructureMap.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Microsoft.Scripting.ExtensionAttribute.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Microsoft.Dynamic.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Microsoft.Scripting.Core.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Microsoft.Scripting.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\IronRuby.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.Core.pdb
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\bin\Pronghorn.ViewEngine.pdb
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\obj\Release\ResolveAssemblyReference.cache
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\obj\Release\Pronghorn.Web.dll
+c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Web\obj\Release\Pronghorn.Web.pdb

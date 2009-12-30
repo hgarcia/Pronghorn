@@ -1,0 +1,200 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0A336909-78C6-43A9-9941-E6A87C087D46/f:build.proj" caret="1185" fromTop="23" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Web.config" caret="11171" fromTop="56" />
+      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="160" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetData.cs" caret="56" fromTop="2" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:PronghornControllerBase.cs" caret="163" fromTop="7" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:HomeController.cs" caret="85" fromTop="4" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Global.asax.cs" caret="48" fromTop="2" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:AccountController.cs" caret="13" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetRepository.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetParams.cs" caret="0" fromTop="0" />
+      <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWidget.cs" caret="645" fromTop="18" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="932" fromTop="20" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IScanningRegistry.cs" caret="134" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="496" fromTop="16" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetRequestSetUpParams.cs" caret="328" fromTop="9" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="306" fromTop="8" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="506" fromTop="12" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="432" fromTop="14" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="128" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="134" fromTop="6" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactoryTests.cs" caret="519" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="392" fromTop="19" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IScanningRegistry.cs" caret="134" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="932" fromTop="20" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="415" fromTop="5" />
+      <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWidget.cs" caret="238" fromTop="10" />
+      <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWidget.cs" caret="645" fromTop="18" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetParams.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="488" fromTop="6" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactoryTests.cs" caret="42" fromTop="1" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="205" fromTop="8" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactoryTests.cs" caret="519" fromTop="15" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="112" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="1189" fromTop="24" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="824" fromTop="23" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="789" fromTop="10" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="130" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="130" fromTop="4" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetRequestSetUpParams.cs" caret="328" fromTop="9" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="728" fromTop="20" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="629" fromTop="15" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="305" fromTop="8" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="494" fromTop="10" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetBase.cs" caret="876" fromTop="21" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="432" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="return" priority="7" />
+      <Item value="default" priority="1" />
+      <Item value="Tparams" priority="1" />
+      <Item value="public" priority="3" />
+      <Item value="abstract" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="Start_Application" priority="0" />
+      <Item value="ServiceLocator" priority="1" />
+      <Item value="using" priority="2" />
+      <Item value="Microsoft" priority="0" />
+      <Item value="Practices.ServiceLocation" priority="0" />
+      <Item value="ServiceLocatorImplBase" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="WidgetBase" priority="2" />
+      <Item value="W" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="this" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="controller" priority="2" />
+      <Item value="_name" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="PronghornControllerBase" priority="6" />
+      <Item value="Configuration.DSL" priority="0" />
+      <Item value="IWidgets" priority="0" />
+      <Item value="ctor" priority="1" />
+      <Item value="new" priority="3" />
+      <Item value="HttpContext" priority="0" />
+      <Item value="_locator" priority="3" />
+      <Item value="controllerNameType" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="requestContext" priority="0" />
+      <Item value="controllerBase" priority="0" />
+      <Item value="_container" priority="1" />
+      <Item value="object" priority="1" />
+      <Item value="controllerName" priority="0" />
+      <Item value="Pronghorn" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="Container" priority="0" />
+      <Item value="context" priority="0" />
+      <Item value="x" priority="5" />
+      <Item value="IScanningRegistry" priority="1" />
+      <Item value="StructureMapControllerFactory" priority="0" />
+      <Item value="tst" priority="0" />
+      <Item value="Rhino.Mocks" priority="0" />
+      <Item value="MockRepository" priority="0" />
+      <Item value="widgetFactory" priority="1" />
+      <Item value="serviceLocator" priority="0" />
+      <Item value="IWidget" priority="2" />
+      <Item value="_serviceLocator" priority="0" />
+      <Item value="widgetId" priority="0" />
+      <Item value="widget" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="2" />
+      <Item value="FullName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Graph.FindAllTypesFilter">
+      <Item value="NameBy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Graph.IAssemblyScanner">
+      <Item value="LookForRegistries" priority="0" />
+      <Item value="Assembly" priority="0" />
+      <Item value="AssembliesFromPath" priority="0" />
+      <Item value="WithDefaultConventions" priority="0" />
+      <Item value="Exclude" priority="0" />
+      <Item value="ExcludeNamespaceContainingType" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Web.Controllers.HomeController">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.PronghornControllerBase">
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@StructureMap.ObjectFactory">
+      <Item value="GetInstance" priority="0" />
+      <Item value="GetNamedInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.ServiceLocator">
+      <Item value="ResolveWithKey" priority="1" />
+      <Item value="GetAllInstancesOf" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="_container" priority="1" />
+      <Item value="Resolve" priority="0" />
+      <Item value="Container" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RequestContext">
+      <Item value="HttpContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Response" priority="1" />
+      <Item value="Server" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponseBase">
+      <Item value="Write" priority="1" />
+      <Item value="End" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Container">
+      <Item value="GetAllInstances" priority="0" />
+      <Item value="WhatDoIHave" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Server" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtilityBase">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateStub" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.IServiceLocator">
+      <Item value="ResolveWithKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.IWidget">
+      <Item value="SetUp" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,5 +1,3 @@
-using System;
-
 namespace Pronghorn.Core
 {
     public interface IWidgetFactory

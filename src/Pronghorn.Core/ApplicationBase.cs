@@ -16,6 +16,7 @@ namespace Pronghorn.Core
         {
             ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory(new ServiceLocator(HttpContext.Current)));
         }
+
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");

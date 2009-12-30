@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using Pronghorn.Widgets;
 using Rhino.Mocks;
 
 namespace Pronghorn.Core.Tests
@@ -10,10 +11,13 @@ namespace Pronghorn.Core.Tests
         public void When_Given_a_Widget_Id_I_Should_Get_a_fully_initialized_Widget()
         {
             var widgetId = "Namespace.WidgetName";
-            var serviceLocator = MockRepository.GenerateStub<IServiceLocator>();
+            var serviceLocator = MockRepository.GenerateMock<IServiceLocator>();
+            serviceLocator.Expect(s => s.ResolveWithKey<IWebWidget>(widgetId)).Return(new HelloWorldWebWidget());
             IWidgetFactory widgetFactory = new WidgetFactory(serviceLocator);
 
-            Core.IWebWidget webWidget = widgetFactory.Create(widgetId);
+            widgetFactory.Create(widgetId);
+
+            serviceLocator.VerifyAllExpectations();
         }
     }
 }

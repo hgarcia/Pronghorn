@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="51F9CB9C-92FD-4069-8F93-22B493EA03A6" ModuleId="Pronghorn.Web" />
+  <Module PersistentId="31E30085-9CB1-4322-89E6-F9B4A22B15A1" ModuleId="Pronghorn.Core" />
+  <Module PersistentId="E5CCF261-05D0-49BB-8730-2819B077B551" ModuleId="Pronghorn.ViewEngine.Tests" />
+  <Module PersistentId="E375B43A-5948-47AE-8EE4-95046F6B998F" ModuleId="Pronghorn.ViewEngine" />
+  <Module PersistentId="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1" ModuleId="Pronghorn.Widgets" />
+  <Module PersistentId="935BB9DB-8790-4AB0-B446-BF262C81DC37" ModuleId="Pronghorn.Core.Tests" />
+</Modules>
