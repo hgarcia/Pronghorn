@@ -13,19 +13,13 @@
   <RecentFiles>
     <RecentFiles>
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IScanningRegistry.cs" caret="134" fromTop="6" />
-      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Scripts/f:jquery-1.3.2.min-vsdoc.js" caret="0" fromTop="0" />
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Scripts/f:jquery-1.3.2.js" caret="0" fromTop="0" />
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Views/d:Home/f:About.aspx" caret="202" fromTop="2" />
-      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Scripts/f:MicrosoftMvcAjax.js" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetParams.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetRequestSetUpParams.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetJsonSetUpParams.cs" caret="740" fromTop="22" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetData.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetRepository.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="462" fromTop="15" />
-      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Global.asax.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="0" fromTop="0" />
       <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ResourceLocalizationService.cs" caret="228" fromTop="8" />
       <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ILocalizationService.cs" caret="139" fromTop="3" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:Pronghorn_ViewEngine_IronRuby_Visitors_Tests.cs" caret="4303" fromTop="20" />
@@ -37,24 +31,24 @@
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWIdget.cs" caret="0" fromTop="0" />
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="213" fromTop="8" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1131" fromTop="28" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ScanningRegistry.cs" caret="681" fromTop="18" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="0" fromTop="0" />
-      <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWebWidget.cs" caret="165" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ScanningRegistry.cs" caret="176" fromTop="6" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="324" fromTop="10" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="252" fromTop="8" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="456" fromTop="15" />
+      <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="712" fromTop="18" />
+      <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWebWidget.cs" caret="186" fromTop="6" />
     </RecentFiles>
     <RecentEdits>
-      <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ResourceLocalizationService.cs" caret="207" fromTop="7" />
-      <File id="E375B43A-5948-47AE-8EE4-95046F6B998F/f:ResourceLocalizationService.cs" caret="0" fromTop="0" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="3019" fromTop="15" />
-      <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2721" fromTop="17" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3961" fromTop="8" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2129" fromTop="10" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3688" fromTop="21" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="3951" fromTop="30" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2597" fromTop="8" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="0" fromTop="0" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="121" fromTop="5" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="147" fromTop="5" />
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="1148" fromTop="13" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="54" fromTop="5" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="19" />
@@ -74,6 +68,10 @@
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="954" fromTop="13" />
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="747" fromTop="5" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="0" fromTop="0" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="527" fromTop="17" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="712" fromTop="18" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="396" fromTop="12" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="626" fromTop="16" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -96,7 +94,7 @@
       <Item value="static" priority="0" />
       <Item value="WidgetBase" priority="3" />
       <Item value="W" priority="0" />
-      <Item value="string" priority="8" />
+      <Item value="string" priority="9" />
       <Item value="this" priority="0" />
       <Item value="var" priority="5" />
       <Item value="controller" priority="2" />
@@ -106,7 +104,7 @@
       <Item value="Configuration.DSL" priority="0" />
       <Item value="IWidgets" priority="0" />
       <Item value="ctor" priority="1" />
-      <Item value="new" priority="5" />
+      <Item value="new" priority="8" />
       <Item value="HttpContext" priority="0" />
       <Item value="_locator" priority="3" />
       <Item value="controllerNameType" priority="0" />
@@ -129,10 +127,10 @@
       <Item value="Rhino.Mocks" priority="0" />
       <Item value="MockRepository" priority="0" />
       <Item value="widgetFactory" priority="1" />
-      <Item value="serviceLocator" priority="0" />
+      <Item value="serviceLocator" priority="3" />
       <Item value="IWidget" priority="2" />
       <Item value="_serviceLocator" priority="1" />
-      <Item value="widgetId" priority="0" />
+      <Item value="widgetId" priority="1" />
       <Item value="widget" priority="1" />
       <Item value="WidgetJsonSetUpParams" priority="0" />
       <Item value="key" priority="0" />
@@ -146,6 +144,8 @@
       <Item value="ServiceWidgetBase" priority="1" />
       <Item value="serviceWidget" priority="0" />
       <Item value="IServiceWidget" priority="0" />
+      <Item value="WebWidgetBase`0" priority="1" />
+      <Item value="HelloWorldWebWidget`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Web.HttpContext">
       <Item value="Current" priority="1" />
@@ -215,9 +215,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
       <Item value="GenerateStub" priority="0" />
+      <Item value="GenerateMock`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pronghorn.Core.IServiceLocator">
       <Item value="ResolveWithKey" priority="1" />
+      <Item value="ResolveWithKey`1" priority="0" />
+      <Item value="Expect`2" priority="0" />
+      <Item value="VerifyAllExpectations`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pronghorn.Core.IWidget">
       <Item value="SetUp" priority="0" />
@@ -227,6 +231,12 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
       <Item value="AssignableTo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pronghorn.Core.WebWidgetBase">
+      <Item value="Design" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <UnitTestRunnerNUnit>
