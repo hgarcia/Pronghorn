@@ -49,8 +49,6 @@ self.output += ""		</table>\r\n""
 		</table>
 ";
 
-		[Test]
-        [Ignore("Doens't run well on TeamCity")]
 		public void When_passing_code_Should_Execute_It_and_return_text()
 		{
 			ILocalizationService localizationService = new ResourceLocalizationService();

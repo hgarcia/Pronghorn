@@ -11,8 +11,6 @@ namespace UnitTesting.Unit
 	public class Pronghorn_ViewEngine_IronRuby_Visitors_Tests
 	{
 
-		[Test]
-        [Ignore("Doesn't pass on TeamCity")]
 		public void Given_a_text_node_Should_convert_the_line_to_a_string_and_assign_to_self_dot_output()
 		{
 			const string line = @"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"">";
