@@ -12,14 +12,14 @@ MIGRATOR_PATH = "../libs/Migrator.Net/Migrator.Console.exe "
 MIGRATOR_DB = "SqlServer \"Data Source=.\\SQLEXPRESS;AttachDbFilename=..\\src\\Pronghorn.Web\\App_Data\\PRONGHORN.MDF;Integrated Security=True;Connect Timeout=30;User Instance=True\""
 
 desc "Clear build folder"
-task :clear => [:prepare] do
+task :clear do
     if File.exists?(PACKAGE_PATH)
       FileUtils.rm_r PACKAGE_PATH
     end
 end
 
 desc "Create folders"
-task :prepare => [:compile] do
+task :prepare => [:clear] do
     if not File.exists?(PACKAGE_PATH)
       Dir.mkdir(PACKAGE_PATH)
     end
@@ -30,12 +30,13 @@ task :prepare => [:compile] do
 end
 
 desc "Build solution"
-task :compile => [:move] do
-  sh "#{DOT_NET_PATH}msbuild.exe /p:Configuration=#{CONFIG} #{SOLUTION} /t:rebuild"
+task :compile => [:prepare] do
+  sh "#{DOT_NET_PATH}msbuild.exe /p:Configuration=#{CONFIG} #{SOLUTION} /t:rebuild
+"
 end
 
 desc "Move dll's to package"
-task :move => [:test]  do
+task :move => [:compile]  do
   for project in PROJECTS | TEST_PROJECTS
      files = Dir.glob("../src/Pronghorn.#{project}/bin/#{CONFIG}")
         files.each do |item|
@@ -45,7 +46,7 @@ task :move => [:test]  do
 end
 
 desc "Run the tests"
-task :test do
+task :test => [:move] do
   xml_file = File.join(PACKAGE_PATH, "nunit-test-report.xml")
    
   for test in TEST_PROJECTS
@@ -65,7 +66,7 @@ task :complete => [:migrate] do
 end
 
 desc "Compilation and test without db migratiion"
-task :codeOnly => [:clear] do
+task :codeOnly => [:test] do
   puts "Compile code and run tests."
 end
 
