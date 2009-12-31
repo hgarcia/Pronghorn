@@ -1,6 +1,0 @@
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Release\Pronghorn.Migrations.dll
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Release\Pronghorn.Migrations.pdb
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\bin\Release\Migrator.Framework.dll
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Release\ResolveAssemblyReference.cache
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Release\Pronghorn.Migrations.dll
-c:\Development\Code\Net3.5\Pronghorn\src\Pronghorn.Migrations\obj\Release\Pronghorn.Migrations.pdb
