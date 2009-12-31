@@ -16,7 +16,6 @@ namespace Pronghorn.Core.Tests
             ServiceLocator.SetLocatorProvider(serviceLocator);
 
             IWidgetFactory widgetFactory = new WidgetFactory();
-
             widgetFactory.Create(widgetId);
 
             serviceLocator.VerifyAllExpectations();
