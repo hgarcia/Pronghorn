@@ -22,7 +22,6 @@
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWebWidget.cs" caret="194" fromTop="6" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWIdget.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WebWidgetBase.cs" caret="1131" fromTop="28" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="0" fromTop="0" />
       <File id="BE95AEED-67FC-4627-B42C-B3FD9B32E8D1/f:HelloWorldWebWidget.cs" caret="186" fromTop="6" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="2473" fromTop="26" />
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyViewParser_Tests.cs" caret="2587" fromTop="13" />
@@ -30,7 +29,6 @@
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ScanningRegistry.cs" caret="0" fromTop="0" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="100" fromTop="3" />
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:Widget_Implements_two_interfaces.cs" caret="0" fromTop="0" />
       <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:CompositeController_Tests.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:StructureMapControllerFactory.cs" caret="540" fromTop="12" />
@@ -38,9 +36,11 @@
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:CompositeController.cs" caret="0" fromTop="0" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ApplicationBase.cs" caret="596" fromTop="19" />
       <File id="51F9CB9C-92FD-4069-8F93-22B493EA03A6/f:Global.asax.cs" caret="51" fromTop="2" />
-      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="670" fromTop="16" />
-      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="289" fromTop="9" />
       <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocatorProvider.cs" caret="531" fromTop="19" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:ServiceLocator.cs" caret="289" fromTop="9" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:WidgetFactory.cs" caret="111" fromTop="3" />
+      <File id="31E30085-9CB1-4322-89E6-F9B4A22B15A1/f:IWidgetFactory.cs" caret="95" fromTop="3" />
+      <File id="935BB9DB-8790-4AB0-B446-BF262C81DC37/f:WidgetFactory_Tests.cs" caret="701" fromTop="17" />
     </RecentFiles>
     <RecentEdits>
       <File id="E5CCF261-05D0-49BB-8730-2819B077B551/f:ProngHorn_ViewEngiene_IronRubyExecutor_Tests.cs" caret="2473" fromTop="12" />
