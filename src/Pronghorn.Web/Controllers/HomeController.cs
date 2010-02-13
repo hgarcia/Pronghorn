@@ -7,9 +7,13 @@ namespace Pronghorn.Web.Controllers
     [HandleError]
     public class HomeController : CompositeController
     {
+        public HomeController(IViewAreaFactory viewAreaFactory) : base(viewAreaFactory)
+        {
+        }
+
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!" + this.Name;
+            ViewData["Message"] = "Welcome to ASP.NET MVC!";
 
 
             return View();

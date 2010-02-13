@@ -9,8 +9,7 @@ namespace Pronghorn.Core
         {
             if(controllerName.Contains(".ico")) return null;
             var controller = ServiceLocator.Current.ResolveWithKey<CompositeController>(string.Format("{0}Controller",controllerName));
-            controller.Name = "From the factory";
-
+            
             //requestContext.HttpContext.Response.Write(ServiceLocator.Current.WhatDoIHave().Replace("\r\n","<br/>"));
             //requestContext.HttpContext.Response.Write(requestContext.HttpContext.Server.MapPath("~/Widgets"));
             return controller;

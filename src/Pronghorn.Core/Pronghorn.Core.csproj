@@ -65,9 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICompositeModel.cs" />
     <Compile Include="IScanningRegistry.cs" />
     <Compile Include="IServiceLocatorProvider.cs" />
     <Compile Include="IServiceWidget.cs" />
+    <Compile Include="IViewArea.cs" />
+    <Compile Include="IViewAreaFactory.cs" />
     <Compile Include="IWIdget.cs" />
     <Compile Include="IWidgetData.cs" />
     <Compile Include="IWidgetFactory.cs" />
@@ -81,7 +84,10 @@
     <Compile Include="ServiceLocatorProvider.cs" />
     <Compile Include="ScanningRegistry.cs" />
     <Compile Include="ServiceLocator.cs" />
+    <Compile Include="SiteId.cs" />
     <Compile Include="StructureMapControllerFactory.cs" />
+    <Compile Include="ViewArea.cs" />
+    <Compile Include="ViewAreaFactory.cs" />
     <Compile Include="WebWidgetBase.cs" />
     <Compile Include="WidgetFactory.cs" />
     <Compile Include="WidgetJsonSetUpParams.cs" />
